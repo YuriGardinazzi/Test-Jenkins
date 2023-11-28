@@ -1,10 +1,5 @@
 pipeline {
-    agent {
-        docker {
-            image 'python:3'
-            label 'my-build-agent'
-      }
-    } 
+    agent any
     stages {
         stage('Build') {
             steps {
@@ -13,6 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
+                sh 'apt install python3'
                 sh 'python3 test-python.py'
             }
         }
