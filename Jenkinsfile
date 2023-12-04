@@ -11,7 +11,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                 '''
-                sh 'pip3 install pandas numpy'
+                sh 'pip3 install pandas numpy elabapi-python'
                 sh 'python3 test-python.py'
             }
         }

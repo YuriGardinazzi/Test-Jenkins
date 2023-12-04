@@ -3,6 +3,7 @@
 import sys
 import pandas as pd
 import numpy as np
+import elabapi_python
 def say_hello():
     print("Ciao mondo, dalla pipeline e da dentro una funzione")
     print(f"version: {sys.version}")
