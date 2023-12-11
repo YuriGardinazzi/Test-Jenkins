@@ -1,7 +1,7 @@
 pipeline {
     agent { docker { 
             image 'python:latest'
-            args  '--net="bridge"'}
+            args  '--net="host"'}
     }
     stages {
         stage('Build') {
