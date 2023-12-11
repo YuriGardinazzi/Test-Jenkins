@@ -1,6 +1,7 @@
 pipeline {
     agent { docker { 
-            image 'python:latest'}
+            image 'python:latest'
+            args  '--net="jenkins_network"'}
     }
     stages {
         stage('Build') {
