@@ -5,16 +5,11 @@ import pandas as pd
 import numpy as np
 import elabapi_python
 import os
-import requests
+#import requests
 ###### CONFIG ######
 API_KEY='2-3de5708fd774688f1229e4e6dae4da0dc895e55f5a0970549af14b3acfac3145fd166007b83933066af52' 
 API_HOST_URL = 'https://localhost/api/v2'
 ###### END CONFIG ######
-
-def test_ping():
-    response = os.popen('ping -n 1 google.com')
-    for line in response.readlines():
-        print(line)
 
 def say_hello():
     print("Ciao mondo, dalla pipeline e da dentro una funzione")
