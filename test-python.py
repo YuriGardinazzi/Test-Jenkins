@@ -11,13 +11,6 @@ API_KEY='2-3de5708fd774688f1229e4e6dae4da0dc895e55f5a0970549af14b3acfac3145fd166
 API_HOST_URL = 'https://localhost/api/v2'
 ###### END CONFIG ######
 
-def say_hello():
-    print("Ciao mondo, dalla pipeline e da dentro una funzione")
-    print(f"version: {sys.version}")
-    df = pd.DataFrame(np.random.randint(0,100,size=(100, 4)), columns=list('ABCD'))
-    print(df.head())
-
-
 
 def try_api():
     '''
@@ -53,7 +46,6 @@ def try_api():
     #print(thread)
     
 if __name__ == "__main__":
-    say_hello()
+    print("******START TESTING API******")
     try_api()
-    print("------- TEST PING -------")
-    #test_ping()
+    print("******END TESTING API******")
