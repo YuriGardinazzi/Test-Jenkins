@@ -7,7 +7,7 @@ import elabapi_python
 import os
 #import requests
 ###### CONFIG ######
-API_KEY='2-3de5708fd774688f1229e4e6dae4da0dc895e55f5a0970549af14b3acfac3145fd166007b83933066af52' 
+API_KEY='1-f07d156b705ff46e9f45517c891888176ed2710de06a0de8bc9c4894bec95c539350bb2a62c0bace02ac1' 
 API_HOST_URL = 'https://localhost/api/v2'
 ###### END CONFIG ######
 
