@@ -8,7 +8,7 @@ import os
 #import requests
 ###### CONFIG ######
 API_KEY='1-f07d156b705ff46e9f45517c891888176ed2710de06a0de8bc9c4894bec95c539350bb2a62c0bace02ac1' 
-API_HOST_URL = 'https://localhost/api/v2'
+API_HOST_URL = 'https://localhost:3148/api/v2'
 ###### END CONFIG ######
 
 
