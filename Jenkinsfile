@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { 
+    agent { docker-test { 
             image 'python:latest'
             args  '--net="host"'}
     }
