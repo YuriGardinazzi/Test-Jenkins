@@ -37,7 +37,7 @@ def try_api():
         print("ID: ",experimentsApi.read_experiments()[i].id)
     
     experimentId = experimentsApi.read_experiments()[0].id
-    if experimentsApi.read_experiments()[i].category == "2":
+    if experimentsApi.read_experiments()[0].category == "2":
         experimentsApi.patch_experiment(id=experimentId, body={'category':'3'})
     else:
         experimentsApi.patch_experiment(id=experimentId, body={'category':'2'})
